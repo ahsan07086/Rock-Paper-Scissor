@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(74, 71, 71)
+}
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 3rem;
+    margin-top: 10px;
+    
+}
+#rock{
+    width: 110px;
+    height: 110px;
+    border-radius: 60px;
+    font-size: 5.0rem;
+    background-color: rgb(79, 187, 214);
+    cursor: pointer;
+}
+#rock:hover{
+    background-color: rgb(68, 171, 197);
+}
+#paper{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 5.3rem;
+    background-color: rgb(79, 187, 214);
+    cursor: pointer;
+}
+#paper:hover{
+    background-color: rgb(68, 171, 197);
+}
+#scissor{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 5.3rem;
+    background-color: rgb(79, 187, 214);
+    cursor: pointer;
+}
+#scissor:hover{
+    background-color: rgb(68, 171, 197);
+}
+#choice{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    font-size: 5.3rem;
+    background-color: rgb(79, 187, 214);
+    cursor: pointer;
+}
+#choice:hover{
+    background-color: rgb(68, 171, 197);
+}
+.score{
+    position: absolute;
+    left: 650px;
+    right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.result{
+   
+   position: absolute;
+   left: 650px;
+   right: 60px;
+   bottom: 180px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+#resultdis{
+   position: absolute;
+   left: 580px;
+   right: 60px;
+   bottom: 300px;
+   font-size: 4.2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   
+}
+.greenscore{
+    color: rgb(5, 102, 31);
+}
+.redscore{
+    color: rgb(210, 7, 7);
+}
